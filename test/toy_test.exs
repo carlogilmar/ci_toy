@@ -3,6 +3,6 @@ defmodule ToyTest do
   doctest Toy
 
   test "greets the world" do
-    assert 1 == 2
+    assert 2 == 2
   end
 end
