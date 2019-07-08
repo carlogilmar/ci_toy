@@ -25,7 +25,8 @@ defmodule Toy.MixProject do
       {:cowboy, "~> 2.5"},
       {:plug, "~> 1.5"},
 			{:plug_cowboy, "~> 2.0"},
-      {:poison, "~> 3.1"}
+      {:poison, "~> 3.1"},
+      {:credo, "~> 1.0.0", only: [:dev, :test], runtime: false}
     ]
   end
 end
